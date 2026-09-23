@@ -1,6 +1,6 @@
 ﻿namespace Accidentes_Madrid.Dto;
 
-public record AccidentesCsvDto(
+public sealed record AccidentesCsvDto(
     string NumExpediente,
     string Fecha,
     string Hora,
